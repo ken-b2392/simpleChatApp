@@ -1,0 +1,29 @@
+.dashboard-wrapper{
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.dashboard-container{
+    /* margin-top: 10vh; */
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.top-container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.chatBox-container{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+.pageNotFoundWrapper{
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.pageNotFoundContainer{
+    width: 100%;
+    height: 85%;
+    border-radius: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 5px #888888;
+    background: #3F51B5;
+}
+
+.page404Container h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: oblique;
+    box-sizing: border-box;
+    text-shadow: 2px 5px 5px #888888;
+}
+
+@media (max-width: 700px){
+    .page404Container h1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 370px){
+    .page404Container h1{
+        font-size: 30px;
+    }
+}

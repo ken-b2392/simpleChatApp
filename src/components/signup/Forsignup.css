@@ -1,0 +1,130 @@
+.form-wrapper{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-container{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background: rgba(54, 70, 156, .4);
+    border-radius: 30px;
+    box-shadow: -15px -15px 15px rgba(58, 150, 194, .1),
+    15px 15px 15px rgba(0, 0, 0, .5),
+    inset -5px -5px 5px rgba(58, 150, 194, .2),
+    inset 5px 5px 5px rgba(0, 0, 0, .5)
+}
+
+.inputs-container-wrapper{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.forMismatchPassword{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.signup-header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.personCircle{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+
+.forHead{
+    z-index: 2;
+    margin-top: 10px;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.forBody{
+    z-index: 3;
+    margin-top: 53px;
+    width: 70px;
+    height: 30px;
+    background: black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+}
+
+.signUpAccount{
+    margin-right: 20px;
+}
+
+.signUpAccount h3{
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.inputs-container{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+.submit-button-container{
+    width: 100%;
+    padding: 5px;
+}
+
+.update-button{
+    width: 200px;
+}
+
+.log-in-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.logincontainerLabel{
+    font-size: 80%;
+}
+
+.nav-link{
+    text-decoration: none;    
+    font-size: 80%;
+}

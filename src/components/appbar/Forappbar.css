@@ -1,0 +1,39 @@
+.appbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.menuAndemail-container{
+    display: flex;
+    align-items: center;
+}
+
+.email-container{
+    justify-self: right;
+}
+
+.exit-icon{
+    transform: rotate(180deg);
+}
+
+.log-out{
+    font-size: 70%;
+}
+
+
+@media (max-width: 776px){
+    .email-inside-container{
+        font-size: 80%;
+    }
+    .email-container strong{
+        word-break: break-all;      
+    }
+}
+
+@media (max-width: 350px){
+    .email-container{
+        display: none;
+    }
+}

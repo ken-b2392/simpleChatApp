@@ -1,0 +1,17 @@
+.chatbox-wrapper{
+    height: 50vh;
+}
+
+.input-container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inputChat{
+    width: 100%;
+}
+
+.send-container{
+    margin: 10px;
+}
